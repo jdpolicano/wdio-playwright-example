@@ -1,0 +1,12 @@
+{
+  "name": "webdriverio",
+  "devDependencies": {
+    "@wdio/cli": "^9.2.6",
+    "@wdio/cucumber-framework": "^9.2.5",
+    "@wdio/local-runner": "^9.2.6",
+    "@wdio/spec-reporter": "^9.2.2"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js --quiet"
+  }
+}
